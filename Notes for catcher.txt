@@ -1,0 +1,30 @@
+Project Title
+
+AI Head-Controlled Fruit Catcher Game Using Computer Vision
+
+Project Description
+
+The AI Head-Controlled Fruit Catcher Game is an interactive computer vision-based game developed using Python. The game uses a webcam to detect and track the player's head movements in real time. A basket on the screen moves according to the user's head position, and the player must catch falling fruits before they reach the bottom of the screen.
+
+The game incorporates computer vision techniques to provide a touchless gaming experience, making it both engaging and innovative. Players earn points by catching fruits and lose lives when fruits are missed. The game includes a timer, scoring system, lives counter, background graphics, and visual game elements to create an enjoyable user experience.
+
+Technologies Used
+Technology	Purpose
+Python	Core programming language
+OpenCV	Webcam access and image processing
+MediaPipe	Face detection and head tracking
+Pygame	Game development and graphics rendering
+Computer Vision	Real-time user tracking
+NumPy (optional)	Numerical processing
+
+
+Working Principle
+The webcam captures live video frames.
+MediaPipe detects the user's face position.
+Head movement coordinates are extracted.
+Basket position is updated based on face location.
+Fruits fall from random positions.
+Collision detection checks whether fruits are caught.
+Score increases when fruits are collected.
+Lives decrease when fruits are missed.
+The game ends when the timer expires or lives reach zero.
